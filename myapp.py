@@ -31,7 +31,7 @@ def main():
     df = yf.Ticker(simbolos_empresas[option]).history(start="2018-01-01").reset_index()
     #df_new = df
     #df_new["Date"] = df["Date"].dt.date
-    df["Data"] = pd.to_datetime(df["Date"].dt.date, format="%Y-%m-%d")
+    df["Date"] = pd.to_datetime(df["Date"].dt.date, format="%Y-%m-%d")
     st.write(df.head())  # mostrando os dados no streamlit
     
     
