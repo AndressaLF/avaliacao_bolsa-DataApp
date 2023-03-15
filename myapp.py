@@ -1,3 +1,5 @@
+# alterando para fazer o commit
+
 # importando as bibliotecas
 
 import streamlit as st  # biblioteca responsável por transformar scripts de dados em aplicativos web
